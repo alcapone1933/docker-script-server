@@ -22,6 +22,8 @@ As an administrator, you add your existing scripts into Script server and other 
 
 No script modifications are needed - you configure each script in Script server and it creates the corresponding UI with parameters and takes care of validation, execution, etc.
 
+[<img src="img/script-server.png" width="900" height="500"/>](https://script-server.net/)
+
 &nbsp;
 
 [DEMO server](https://script-server.net/) \
@@ -33,8 +35,6 @@ BY https://github.com/bugy/script-server
 ## WIKI
 
 BY bugy/script-server https://github.com/bugy/script-server/wiki
-
-[<img src="img/script-server.png" width="900" height="500"/>](https://script-server.net/)
 
 &nbsp;
 
