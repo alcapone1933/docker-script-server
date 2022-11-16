@@ -10,7 +10,7 @@ LABEL maintainer="alcapone1933 <alcapone1933@cosanostra-cloud.de>" \
 
 ENV TZ=Europe/Berlin
 
-RUN apk add --update --no-cache python3 py3-pip curl && \
+RUN apk add --update --no-cache tzdata python3 py3-pip curl && \
     rm -rf /var/cache/apk/* && mkdir -p /app mkdir -p /app/conf && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
