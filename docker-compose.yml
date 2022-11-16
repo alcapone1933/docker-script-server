@@ -1,6 +1,8 @@
 version: "3.9"
 services:
   script-server:
+    build:
+      dockerfile: Dockerfile
     image: alcapone1933/script-server:latest
     container_name: script-server
     restart: always
