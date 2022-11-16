@@ -1,5 +1,3 @@
-Dockerfile
-
 FROM alpine:latest
 LABEL maintainer="alcapone1933 <alcapone1933@cosanostra-cloud.de>" \
       org.opencontainers.image.created="$(date +%Y-%m-%d\ %H:%M)" \
