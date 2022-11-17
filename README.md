@@ -66,7 +66,7 @@ Additionally each script logs are written to separate file in *logs/processes*. 
 ```bash
 docker run -d \
     -p 5000:5000 \
-    -e TZ=Europe/Berlin \    
+    -e TZ=Europe/Berlin \
     -v script-server_data:/app/ \
     --restart always \
     --name script-server \
