@@ -37,7 +37,7 @@ steps:
       repo: alcapone1933/script-server
       # tags: latest
       auto_tag: true
-      auto_tag_suffix: v1.17.1
+      auto_tag_suffix: v1.18.0
 
 trigger:
   branch:
